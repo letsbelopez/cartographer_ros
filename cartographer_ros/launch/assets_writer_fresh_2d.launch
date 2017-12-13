@@ -16,7 +16,7 @@
 -->
 
 <launch>
-  <arg name="config_file" default="assets_writer_backpack_2d.lua"/>
+  <arg name="config_file" default="assets_writer_fresh_map_2d.lua"/>
   <node name="cartographer_assets_writer" pkg="cartographer_ros" required="true"
       type="cartographer_assets_writer" args="
           -configuration_directory $(find cartographer_ros)/configuration_files
